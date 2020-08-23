@@ -1,14 +1,16 @@
-
+.prueba{
+  color:#adadad;
+}
 #div1{
   background-color: #f2f2f2;
-  color: #4b4747;
+  color: #3a3a3a;
   padding-left: 40px;
   padding-top: 20px;
   font-size: 12px;
 }
 #div2{
   background-color: #ffffff;
-  color: #4b4747;
+  color: #3a3a3a;
   font-size: 12px;
 }
 /*
@@ -54,7 +56,7 @@ color: black;
 #txt-title{
   margin-left: -10px ;
   margin-bottom: 50px;
-  color: #3a3a3a;
+  
 }
 #weplot,
 #p-partida,
@@ -78,7 +80,7 @@ color: black;
 #title-obra{
   padding-top: 30px;
   padding-bottom: 40px;
-  color: #3a3a3a;
+  /*color: #3a3a3a;*/
 }
 #txt-observacion{
   margin-top: 30px;
