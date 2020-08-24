@@ -10,7 +10,7 @@
 }
 #div2{
   background-color: #ffffff;
-  color: #3a3a3a;
+  color: #adadad;
   font-size: 12px;
 }
 /*
@@ -135,4 +135,7 @@ color: black;
 }
 #ayuda-brand{
   margin-left: 130px;
+}
+.badge-dark{
+  background-color: #adadad;
 }
