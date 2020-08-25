@@ -3,62 +3,8 @@
   <div class="container">
     <h2 id="txt-title">Sobre la Autoria</h2>
     <div class="row">
-      <div class="container">
-        <div id="si-no" class="row">
-          <div id="div1-r1" class="col-md-1">
-            <i><strong>No</strong></i>
-          </div>
-          <div id="div1-r2" class="col-md-1">
-            <i><strong>Si</strong></i>
-          </div>
-        </div>
-      </div>
-      <div id="div1-p1" class="col-md-12">
-        <div   class="custom-control custom-switch">
-          <input
-          
-            type="checkbox"
-            class="custom-control-input"
-            id="customSwitch1"
-          />
-          <label class="custom-control-label" for="customSwitch1"
-            >1. Eres el autor de la historia?</label
-          >
-        </div>
-      </div>
-      <div id="div1-p2" class="col-md-12">
-        <div class="custom-control custom-switch">
-          <input
-            type="checkbox"
-            class="custom-control-input"
-            id="customSwitch2"
-          />
-          <label class="custom-control-label" for="customSwitch2"
-            >2. Eres el representante legal de la historia?</label
-          >
-        </div>
-      </div>
-      <div id="div1-p3" class="col-md-12">
-        <div class="custom-control custom-switch">
-          <input
-            type="checkbox"
-            class="custom-control-input"
-            id="customSwitch3"
-          />
-          <label class="custom-control-label" for="customSwitch3"
-            >Si no, ¿Tienes la autorización del autor o representante legal para
-            inscribirla en WePlot?</label
-          >
-        </div>
-      </div>
-      <div id="div1-p4" class="col-md-12">
-        <i id="weplot"> WePlot </i> tiene como valor siempre respetar la cadena
-        de derechos autorales. Si no eres ni el autor ni el representante legal
-        de la historia, ten en cuenta que te vamos a solicitar estos datos para
-        seguir, y que solo uno de ellos podrá aceptar los términos legales. Si
-        tú eres el autor o el representante legal, sigue adelante y Bienvenido a
-        Weplot!
-      </div>
+     <app-preguntas-autoria></app-preguntas-autoria>
+     <app-descripcion-autoria></app-descripcion-autoria>
     </div>
   </div>
 
